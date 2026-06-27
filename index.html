@@ -1,107 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Harbour Energy Style Mockup</title>
-<style>
-*{box-sizing:border-box}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#12233f;background:#fff}
-header{background:#06264a;color:white}
-.top{padding:10px 6%;font-size:13px;display:flex;justify-content:space-between;opacity:.9}
-.nav{display:flex;align-items:center;justify-content:space-between;padding:25px 6%}
-.logo{font-size:28px;font-weight:700;letter-spacing:1px}
-nav a{color:white;text-decoration:none;margin:0 12px;font-size:15px}
-.hero{height:75vh;background:linear-gradient(90deg,rgba(0,20,40,.8),rgba(0,20,40,.2)),url('https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1600&q=80') center/cover;display:flex;align-items:center;padding:0 7%;color:white}
-.hero h1{font-size:56px;max-width:700px;margin:0 0 20px}
-.hero p{font-size:21px;max-width:650px;line-height:1.5}
-.btn{display:inline-block;background:#e36b2c;color:white;padding:14px 28px;margin-top:20px;text-decoration:none}
-section{padding:70px 7%}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px}
-.card{background:#f3f5f7;padding:30px;min-height:180px}
-.card h3{margin-top:0}
-.dark{background:#06264a;color:white}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px}
-.stat{padding:25px;border:1px solid rgba(255,255,255,.3)}
-footer{background:#04172d;color:white;padding:40px 7%}
-@media(max-width:900px){
-nav{display:none}
-.hero h1{font-size:38px}
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harbour Energy Style Mockup</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<div class="top">
-<div>Share price | Investors</div>
-<div>Search | LinkedIn</div>
-</div>
-<div class="nav">
-<div class="logo">HARBOUR ENERGY</div>
-<nav>
-<a href="#">Who we are</a>
-<a href="#">What we do</a>
-<a href="#">Sustainability</a>
-<a href="#">Investors</a>
-<a href="#">Careers</a>
-<a href="#">News</a>
-</nav>
-</div>
-</header>
+  <header>
+    <div class="top">
+      <div>Share price | Investors</div>
+      <div>Search | LinkedIn</div>
+    </div>
+    <div class="nav">
+      <div class="logo">HARBOUR ENERGY</div>
+      <nav>
+        <a href="#">Who we are</a>
+        <a href="#">What we do</a>
+        <a href="#">Sustainability</a>
+        <a href="#">Investors</a>
+        <a href="#">Careers</a>
+        <a href="#">News</a>
+      </nav>
+    </div>
+  </header>
 
-<div class="hero">
-<div>
-<h1>Meeting the world's energy needs safely and responsibly</h1>
-<p>A modern energy company focused on operational excellence, sustainable growth and creating long-term value.</p>
-<a class="btn" href="#">Discover more</a>
-</div>
-</div>
+  <div class="hero">
+    <div>
+      <h1>Meeting the world's energy needs safely and responsibly</h1>
+      <p>A modern energy company focused on operational excellence, sustainable growth and creating long-term value.</p>
+      <a class="btn" href="#">Discover more</a>
+    </div>
+  </div>
 
-<section>
-<h2>Who we are</h2>
-<p>We are a global energy company with operations across multiple regions, delivering reliable energy while investing in the future.</p>
+  <section>
+    <h2>Who we are</h2>
+    <p>We are a global energy company with operations across multiple regions, delivering reliable energy while investing in the future.</p>
 
-<div class="grid">
-<div class="card"><h3>Our Strategy</h3><p>Growth through strong assets and disciplined investment.</p></div>
-<div class="card"><h3>Leadership</h3><p>Experienced teams delivering operational performance.</p></div>
-<div class="card"><h3>Our Values</h3><p>Safety, integrity and collaboration guide our work.</p></div>
-</div>
-</section>
+    <div class="grid">
+      <div class="card">
+        <h3>Our Strategy</h3>
+        <p>Growth through strong assets and disciplined investment.</p>
+      </div>
+      <div class="card">
+        <h3>Leadership</h3>
+        <p>Experienced teams delivering operational performance.</p>
+      </div>
+      <div class="card">
+        <h3>Our Values</h3>
+        <p>Safety, integrity and collaboration guide our work.</p>
+      </div>
+    </div>
+  </section>
 
-<section class="dark">
-<h2>Global Operations</h2>
-<div class="grid">
-<div class="stat"><h3>Europe</h3><p>North Sea operations and energy infrastructure.</p></div>
-<div class="stat"><h3>Africa</h3><p>Gas supply and regional partnerships.</p></div>
-<div class="stat"><h3>Americas</h3><p>Growing production footprint.</p></div>
-<div class="stat"><h3>Asia</h3><p>International operations and assets.</p></div>
-</div>
-</section>
+  <section class="dark">
+    <h2>Global Operations</h2>
+    <div class="grid">
+      <div class="stat">
+        <h3>Europe</h3>
+        <p>North Sea operations and energy infrastructure.</p>
+      </div>
+      <div class="stat">
+        <h3>Africa</h3>
+        <p>Gas supply and regional partnerships.</p>
+      </div>
+      <div class="stat">
+        <h3>Americas</h3>
+        <p>Growing production footprint.</p>
+      </div>
+      <div class="stat">
+        <h3>Asia</h3>
+        <p>International operations and assets.</p>
+      </div>
+    </div>
+  </section>
 
-<section>
-<h2>Sustainability</h2>
-<div class="grid">
-<div class="card"><h3>Safety</h3><p>Protecting people and assets.</p></div>
-<div class="card"><h3>Environment</h3><p>Reducing impact and supporting transition.</p></div>
-<div class="card"><h3>Carbon Capture</h3><p>Building future energy solutions.</p></div>
-</div>
-</section>
+  <section>
+    <h2>Sustainability</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Safety</h3>
+        <p>Protecting people and assets.</p>
+      </div>
+      <div class="card">
+        <h3>Environment</h3>
+        <p>Reducing impact and supporting transition.</p>
+      </div>
+      <div class="card">
+        <h3>Carbon Capture</h3>
+        <p>Building future energy solutions.</p>
+      </div>
+    </div>
+  </section>
 
-<section>
-<h2>Investors</h2>
-<div class="grid">
-<div class="card"><h3>Reports</h3><p>Financial performance and updates.</p></div>
-<div class="card"><h3>Share Price</h3><p>Investor information centre.</p></div>
-<div class="card"><h3>News</h3><p>Latest company announcements.</p></div>
-</div>
-</section>
+  <section>
+    <h2>Investors</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Reports</h3>
+        <p>Financial performance and updates.</p>
+      </div>
+      <div class="card">
+        <h3>Share Price</h3>
+        <p>Investor information centre.</p>
+      </div>
+      <div class="card">
+        <h3>News</h3>
+        <p>Latest company announcements.</p>
+      </div>
+    </div>
+  </section>
 
-<footer>
-<h2>HARBOUR ENERGY</h2>
-<p>Corporate website mockup inspired by enterprise energy websites.</p>
-</footer>
+  <footer>
+    <h2>HARBOUR ENERGY</h2>
+    <p>Corporate website mockup inspired by enterprise energy websites.</p>
+  </footer>
 
 </body>
 </html>
